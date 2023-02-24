@@ -22,8 +22,6 @@
 
 # IsActive
 
-# Bygningsnummer
-
 # OwningUser
 
 # OwningApplication
