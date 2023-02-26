@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e" pages="7">
     <diagram id="DoXFOzantydcRbyrOaLm" name="FM Portalen">
-        <mxGraphModel dx="1204" dy="4143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="951" dy="4139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-0"/>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-1" parent="ERaS4kOA_Src37u5DPk3-0"/>
-                <mxCell id="ERaS4kOA_Src37u5DPk3-2" value="&lt;h1&gt;&lt;span&gt;&lt;font style=&quot;font-size: 35px&quot;&gt;FM Portalen - KEID systemer&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;verticalAlign=top;arcSize=4;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
-                    <mxGeometry x="108" y="-3090" width="1500" height="620" as="geometry"/>
+                <mxCell id="ERaS4kOA_Src37u5DPk3-2" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;verticalAlign=top;arcSize=4;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
+                    <mxGeometry x="108" y="-3000" width="1500" height="530" as="geometry"/>
                 </mxCell>
-                <mxCell id="ERaS4kOA_Src37u5DPk3-3" value="&lt;h1&gt;Tre selvstændige KEID systemer&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;verticalAlign=top;arcSize=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
+                <mxCell id="ERaS4kOA_Src37u5DPk3-3" value="&lt;h1&gt;Tre selvstændige systemer&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;align=center;verticalAlign=top;arcSize=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
                     <mxGeometry x="628" y="-2960" width="490" height="451.25" as="geometry"/>
                 </mxCell>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-4" value="&lt;b style=&quot;font-size: 27px&quot;&gt;Dataordbogen&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=27;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
