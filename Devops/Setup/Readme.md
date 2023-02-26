@@ -12,6 +12,7 @@
 - Volar - Vue 3
 - IFC Syntax
 - Python
+- Draw.io Integration
 
 ## Lokal PC:
 

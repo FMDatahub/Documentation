@@ -2,4 +2,6 @@
 
 # Dokumentations formål
 
-# Diagram fra draw.io
+# Datahub diagram
+
+![DatahubProduktion](/Datahub%20-%20Produktion.png)
