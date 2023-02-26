@@ -1,6 +1,4 @@
-### Dokumentation for datahubben
-
-### Dokumentations formål
+# Dokumentation for datahubben
 
 ### Datahub diagram
 
