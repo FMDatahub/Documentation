@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="7">
     <diagram id="DoXFOzantydcRbyrOaLm" name="FM Portalen">
-        <mxGraphModel dx="3010" dy="5097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1204" dy="4143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-0"/>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-1" parent="ERaS4kOA_Src37u5DPk3-0"/>
@@ -19,7 +19,7 @@
                 <mxCell id="ERaS4kOA_Src37u5DPk3-6" value="&lt;b style=&quot;font-size: 27px&quot;&gt;Databanken&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=27;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
                     <mxGeometry x="674" y="-2631.49" width="394" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="ERaS4kOA_Src37u5DPk3-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;gradientColor=none;endSize=0;startSize=6;fillColor=#ffffff;" parent="ERaS4kOA_Src37u5DPk3-1" edge="1">
+                <mxCell id="ERaS4kOA_Src37u5DPk3-7" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;gradientColor=none;endSize=6;startSize=6;fillColor=#ffffff;" parent="ERaS4kOA_Src37u5DPk3-1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="872.7600000000002" y="-2614" as="sourcePoint"/>
                         <mxPoint x="872.7600000000002" y="-2678" as="targetPoint"/>
