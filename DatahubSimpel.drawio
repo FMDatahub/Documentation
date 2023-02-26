@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="7">
     <diagram id="DoXFOzantydcRbyrOaLm" name="FM Portalen">
-        <mxGraphModel dx="4439" dy="4246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="6847" dy="6338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-0"/>
                 <mxCell id="ERaS4kOA_Src37u5DPk3-1" parent="ERaS4kOA_Src37u5DPk3-0"/>
@@ -81,9 +81,6 @@
                         <mxPoint x="486" y="-1499.9999999999995" as="sourcePoint"/>
                         <mxPoint x="486.40999999999985" y="-1574.9999999999995" as="targetPoint"/>
                     </mxGeometry>
-                </mxCell>
-                <mxCell id="QlAGxzF_Y3RZo5sZoMfs-25" value="&lt;h1&gt;&lt;span style=&quot;font-size: 41px&quot;&gt;Fagsystemer kan også ses som værende projekter leveret fra bestemte leverandører&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
-                    <mxGeometry x="-283" y="-360" width="971" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="QlAGxzF_Y3RZo5sZoMfs-26" value="&lt;font face=&quot;helvetica&quot;&gt;&lt;span style=&quot;font-size: 30px&quot;&gt;&lt;b&gt;Transformeret eksterne kilder&lt;/b&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#33001A;align=center;verticalAlign=middle;arcSize=7;" parent="ERaS4kOA_Src37u5DPk3-1" vertex="1">
                     <mxGeometry x="1302" y="-1321.25" width="500" height="80" as="geometry"/>
