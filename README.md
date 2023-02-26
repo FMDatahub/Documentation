@@ -1,7 +1,7 @@
 ### Dokumentation for datahubben
 
-# Dokumentations formål
+### Dokumentations formål
 
-# Datahub diagram
+### Datahub diagram
 
 ![DatahubProduktion](/Datahub%20-%20Produktion.png)
