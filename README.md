@@ -1,5 +1,7 @@
 # Dokumentation for datahubben
 
+![DatahubSimple](Simple.png)
+
 ### Datahub diagram
 
-![DatahubProduktion](/Datahub%20-%20Produktion.png)
+![DatahubProduktion](Produktion.png)
