@@ -3,7 +3,7 @@ export default {
   description: "Dokumentation for Datahub",
   srcDir: "./",
   base: "/Documentation/",
-  //cleanUrls: true,
+  ///cleanUrls: true,
   ignoreDeadLinks: true,
   themeConfig: {
     sidebar: [
