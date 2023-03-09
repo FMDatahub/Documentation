@@ -1,3 +1,0 @@
-# Datahub
-
-![DatahubProduktion](Produktion.png)

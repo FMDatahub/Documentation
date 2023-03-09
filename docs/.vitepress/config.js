@@ -10,10 +10,6 @@ export default {
       {
         items: [
           {
-            text: "Datahub",
-            link: "/Datahub/",
-          },
-          {
             text: "Frontend",
             collapsed: true,
             link: "/Frontend/",
@@ -34,40 +30,51 @@ export default {
             link: "/Backend/",
             items: [
               {
-                text: "Active Directory",
-                link: "Backend/ActiveDirectory/",
-              },
-              {
-                text: "API",
-                link: "Backend/API/",
-              },
-              {
-                text: "API Management",
-                link: "Backend/APIManagement/",
-              },
-              {
                 text: "Databases",
                 link: "Backend/Databases/",
               },
-              {
-                text: "Eventgrid",
-                link: "Backend/Eventgrid/",
-              },
-              {
-                text: "Functions",
-                link: "Backend/Functions/",
-              },
-              {
-                text: "Keyvault",
-                link: "Backend/Keyvault/",
-              },
-              {
-                text: "Queues",
-                link: "Backend/Queues/",
-              },
+
               {
                 text: "Storage",
                 link: "Backend/Storage/",
+              },
+            ],
+          },
+          {
+            text: "API",
+            collapsed: true,
+            link: "/API/",
+            items: [
+              {
+                text: "Routers",
+                collapsed: true,
+                link: "API/Routers/",
+                items: [
+                  {
+                    text: "DataExchange",
+                    link: "API/Routers/DataExchange/",
+                  },
+                  {
+                    text: "Documents",
+                    link: "API/Routers/Documents/",
+                  },
+                  {
+                    text: "Foundation",
+                    link: "API/Routers/Foundation/",
+                  },
+                  {
+                    text: "Services",
+                    link: "API/Routers/Services/",
+                  },
+                ],
+              },
+              {
+                text: "Active Directory",
+                link: "API/ActiveDirectory/",
+              },
+              {
+                text: "API Management",
+                link: "API/APIManagement/",
               },
             ],
           },
@@ -77,6 +84,18 @@ export default {
             link: "/Devops/",
             items: [
               {
+                text: "Branches",
+                link: "Devops/Branches/",
+              },
+              {
+                text: "Keyvault",
+                link: "Devops/Keyvault/",
+              },
+              {
+                text: "Pipelines",
+                link: "Devops/Pipelines/",
+              },
+              {
                 text: "InfrastructureAsCode",
                 link: "Devops/InfrastructureAsCode/",
               },
@@ -85,6 +104,41 @@ export default {
                 link: "Devops/Pipelines/",
               },
             ],
+          },
+          {
+            text: "Events",
+            collapsed: true,
+            link: "/Events/",
+            items: [
+              {
+                text: "Eventhub",
+                link: "Events/Eventhub/",
+              },
+              {
+                text: "Queues",
+                link: "Events/Queues/",
+              },
+            ],
+          },
+          {
+            text: "Integrationer",
+            collapsed: true,
+            link: "/Integrationer/",
+            items: [
+              {
+                text: "Fagsystemer",
+                link: "Integrationer/Fagsystemer/",
+              },
+              {
+                text: "Offentlige",
+                link: "Integrationer/Offentlige/",
+              },
+            ],
+          },
+
+          {
+            text: "Datadictionary",
+            link: "/Datadictionary/",
           },
         ],
       },
