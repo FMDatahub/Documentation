@@ -142,6 +142,15 @@ export default {
           },
         ],
       },
+      {
+        text: "Links",
+        items: [
+          {
+            text: "Portal",
+            link: "https://fmdatahub.github.io/Portal/",
+          },
+        ],
+      },
     ],
   },
 };
