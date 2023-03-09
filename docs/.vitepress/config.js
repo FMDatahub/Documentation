@@ -2,6 +2,7 @@ export default {
   title: "Dokumentation",
   description: "Dokumentation for Datahub",
   srcDir: "./",
+  lastUpdated: false,
   base: "/Documentation/",
   ///cleanUrls: true,
   ignoreDeadLinks: true,
