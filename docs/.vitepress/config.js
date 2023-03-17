@@ -7,6 +7,11 @@ export default {
   ///cleanUrls: true,
   ignoreDeadLinks: true,
   themeConfig: {
+    algolia: {
+      appId: "L8J7OTWO4E",
+      apiKey: "2e16bb09684bc1e95c25894db01b7d9d",
+      indexName: "umentation",
+    },
     editLink: {
       pattern:
         "https://github.com/FMDatahub/Documentation/tree/main/docs/:path",
