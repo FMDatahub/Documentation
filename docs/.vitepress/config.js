@@ -22,6 +22,7 @@ export default {
             items: [
               {
                 text: "Components",
+                collapsed: true,
                 link: "Frontend/Components/",
                 items: [
                   {
