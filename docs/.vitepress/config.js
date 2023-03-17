@@ -23,6 +23,53 @@ export default {
               {
                 text: "Components",
                 link: "Frontend/Components/",
+                items: [
+                  {
+                    text: "Visninger",
+                    link: "Backend/Databases/",
+                  },
+
+                  {
+                    text: "Bygningsdele",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "Documents",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "Ejendomsstruktur",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "EjendomsstrukturEditor",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "GlbViewer",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "Header",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "Mapbox",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "MapboxEditor",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "SvgViewer",
+                    link: "Backend/Storage/",
+                  },
+                  {
+                    text: "User",
+                    link: "Backend/Storage/",
+                  },
+                ],
               },
               {
                 text: "Pages",
