@@ -26,6 +26,14 @@ export default {
             link: "/Frontend/",
             items: [
               {
+                text: "Pages",
+                link: "Frontend/Pages/",
+              },
+              {
+                text: "State",
+                link: "Frontend/State/",
+              },
+              {
                 text: "Components",
                 collapsed: true,
                 link: "Frontend/Components/",
@@ -49,7 +57,10 @@ export default {
                       },
                     ],
                   },
-
+                  {
+                    text: "Header",
+                    link: "Backend/Storage/",
+                  },
                   {
                     text: "Bygningsdele",
                     link: "Backend/Storage/",
@@ -71,10 +82,6 @@ export default {
                     link: "Backend/Storage/",
                   },
                   {
-                    text: "Header",
-                    link: "Backend/Storage/",
-                  },
-                  {
                     text: "Mapbox",
                     link: "Backend/Storage/",
                   },
@@ -91,10 +98,6 @@ export default {
                     link: "Backend/Storage/",
                   },
                 ],
-              },
-              {
-                text: "Pages",
-                link: "Frontend/Pages/",
               },
             ],
           },
