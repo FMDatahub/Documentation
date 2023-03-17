@@ -27,7 +27,22 @@ export default {
                 items: [
                   {
                     text: "Visninger",
+                    collapsed: true,
                     link: "Backend/Databases/",
+                    items: [
+                      {
+                        text: "Jordstykker",
+                        link: "Backend/Storage/",
+                      },
+                      {
+                        text: "Bygninger",
+                        link: "Backend/Databases/",
+                      },
+                      {
+                        text: "Etager",
+                        link: "Backend/Storage/",
+                      },
+                    ],
                   },
 
                   {
