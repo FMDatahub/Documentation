@@ -203,7 +203,7 @@ export default {
                 link: "Integrationer/Fagsystemer/",
               },
               {
-                text: "Offentlige",
+                text: "Offentlige registre",
                 link: "Integrationer/Offentlige/",
               },
             ],
