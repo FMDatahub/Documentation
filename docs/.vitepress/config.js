@@ -176,10 +176,6 @@ export default {
                 text: "InfrastructureAsCode",
                 link: "Devops/InfrastructureAsCode/",
               },
-              {
-                text: "Pipelines",
-                link: "Devops/Pipelines/",
-              },
             ],
           },
           {
