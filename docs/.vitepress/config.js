@@ -208,11 +208,6 @@ export default {
               },
             ],
           },
-
-          {
-            text: "Datadictionary",
-            link: "/Datadictionary/",
-          },
         ],
       },
       {
