@@ -7,3 +7,9 @@ Events kan bruges i en række forskellige sammenhænge, herunder i event-drevne 
 Events kan også bruges til at implementere automatisk dataoverførsel eller andre automatiserede processer. Når en event opstår, kan den udløse en række handlinger, som f.eks. at gemme data i en database, sende en email eller udløse en notifikation.
 
 Events kan også bruges i sammenhæng med forskellige teknologier og værktøjer, f.eks. event-logs og event-tracing, som kan hjælpe med at overvåge og diagnosticere problemer i systemet eller applikationen.
+
+# Liste over events
+
+1.
+2.
+3.
