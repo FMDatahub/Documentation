@@ -191,6 +191,25 @@ export default {
                 text: "Queues",
                 link: "Events/Queues/",
               },
+              {
+                text: "Functions",
+                collapsed: true,
+                link: "Events/Functions/",
+                items: [
+                  {
+                    text: "IfcToDB",
+                    link: "Events/Eventhub/",
+                  },
+                  {
+                    text: "IfcToSvg",
+                    link: "Events/Queues/",
+                  },
+                  {
+                    text: "IfcToGlb",
+                    link: "Events/Functions/",
+                  },
+                ],
+              },
             ],
           },
           {
