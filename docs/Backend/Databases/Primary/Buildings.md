@@ -1,35 +1,30 @@
 ### Bygninger
 
-- Træk følgende egenskaber ind, opret dem under begreber
-
-| Column                      | Type          |
-|-----------------------------|---------------|
-| Id                          | PK            |
-| GlobalId                    |               |
-| ParentContext               |               |
-| ParentProject               |               |
-| Type                        |               |
-| Name                        |               |
-| LongName                    |               |
-| Description                 |               |
-| -------------               |               |
-| Version                     |               |
-| State                       |               |
-| IsActive                    |               |
-| CreationDate                |               |
-| OwningUser                  |               |
-| OwningApplication           |               |
-| ChangeAction                |               |
-| LastModifiedDate            |               |
-| LastModifyingUser           |               |
-| IdInOwningApplication       |               |
-| LastModifyingApplication    |               |
-| SameAs                      |               |
-|-----------------------------|---------------|
-| IsDecomposedBy              |               |
-| Decomposes                  |               |
-|-----------------------------|---------------|
-| Lat                         |               |
-| Lng                         |               |
-| Polygon                     |               |
-| BFENummer                   |               |
+| Column                   | Key | Datatype | Link |
+| ------------------------ | --- | -------- | ---- |
+| Id                       | PK  | int      |      |
+| GlobalId                 |     | str      |      |
+| ParentContext            |     | str      |      |
+| ParentProject            |     | str      |      |
+| Type                     |     | str      |      |
+| Name                     |     | str      |      |
+| LongName                 |     | str      |      |
+| Description              |     | str      |      |
+| Version                  |     | int      |      |
+| State                    |     | str      |      |
+| IsActive                 |     | boolean  |      |
+| CreationDate             |     | datetime |      |
+| OwningUser               |     | str      |      |
+| OwningApplication        |     | str      |      |
+| ChangeAction             |     | str      |      |
+| LastModifiedDate         |     | datetime |      |
+| LastModifyingUser        |     | str      |      |
+| IdInOwningApplication    |     | str      |      |
+| LastModifyingApplication |     | str      |      |
+| SameAs                   |     | str      |      |
+| IsDecomposedBy           |     | str      |      |
+| Decomposes               |     | str      |      |
+| Lat                      |     | float    |      |
+| Lng                      |     | float    |      |
+| Polygon                  |     | polygon  |      |
+| BFENummer                |     | str      |      |
