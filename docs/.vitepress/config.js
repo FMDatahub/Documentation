@@ -114,11 +114,11 @@ export default {
                   {
                     text: "DataExchange",
                     collapsed: true,
-                    link: "Backend/DataBases/DataExchange/",
+                    link: "Backend/Databases/DataExchange/",
                     items: [
                       {
                         text: "Buildings",
-                        link: "Backend/DataBases/DataExchange/Buildings",
+                        link: "Backend/Databases/DataExchange/Buildings",
                       },
                     ],
                   },
