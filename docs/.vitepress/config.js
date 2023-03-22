@@ -108,7 +108,21 @@ export default {
             items: [
               {
                 text: "Databases",
+                collapsed: true,
                 link: "Backend/Databases/",
+                items: [
+                  {
+                    text: "DataExchange",
+                    collapsed: true,
+                    link: "Backend/DataBases/DataExchange/",
+                    items: [
+                      {
+                        text: "Buildings",
+                        link: "Backend/DataBases/DataExchange/Buildings",
+                      },
+                    ],
+                  },
+                ],
               },
 
               {
