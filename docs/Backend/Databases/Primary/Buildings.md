@@ -1,4 +1,4 @@
-### Bygninger
+# Bygninger
 
 | Column                   | Key | Datatype | Link |
 | ------------------------ | --- | -------- | ---- |
