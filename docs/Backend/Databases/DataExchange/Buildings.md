@@ -10,6 +10,7 @@
 | Name                     |     | str      |      |
 | LongName                 |     | str      |      |
 | Description              |     | str      |      |
+| ------------------------ | --- | -------- | ---- |
 | Version                  |     | int      |      |
 | State                    |     | str      |      |
 | IsActive                 |     | boolean  |      |
@@ -22,8 +23,10 @@
 | IdInOwningApplication    |     | str      |      |
 | LastModifyingApplication |     | str      |      |
 | SameAs                   |     | str      |      |
+| ------------------------ | --- | -------- | ---- |
 | IsDecomposedBy           |     | str      |      |
 | Decomposes               |     | str      |      |
+| ------------------------ | --- | -------- | ---- |
 | Lat                      |     | float    |      |
 | Lng                      |     | float    |      |
 | Polygon                  |     | polygon  |      |

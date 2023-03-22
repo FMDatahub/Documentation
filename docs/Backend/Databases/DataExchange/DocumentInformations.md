@@ -1,4 +1,4 @@
-# Projekter
+# Dokument informationer
 
 | Column                   | Key | Datatype | Link |
 | ------------------------ | --- | -------- | ---- |
@@ -22,9 +22,19 @@
 | LastModifyingUser        |     | str      |      |
 | IdInOwningApplication    |     | str      |      |
 | LastModifyingApplication |     | str      |      |
-| SameAs                   |     | str      |      |
 | ------------------------ | --- | -------- | ---- |
-| IsDecomposedBy           |     | str      |      |
-| Decomposes               |     | str      |      |
-| ------------------------ | --- | -------- | ---- |
-| OriginalFile             |     | str      |      |
+| Identification           |     | str      |      |
+| Location                 |     | str      |      |
+| Purpose                  |     | str      |      |
+| IntendedUse              |     | str      |      |
+| Scope                    |     | str      |      |
+| Revision                 |     | str      |      |
+| DocumentOwner            |     | str      |      |
+| Editors                  |     | str      |      |
+| CreationTime             |     | str      |      |
+| LastRevisionTime         |     | str      |      |
+| ElectronicFormat         |     | str      |      |
+| ValidFrom                |     | str      |      |
+| ValidUntil               |     | str      |      |
+| Confidentiallity         |     | str      |      |
+| Status                   |     | str      |      |

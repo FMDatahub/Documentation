@@ -1,4 +1,4 @@
-# Projekter
+# BCFS
 
 | Column                   | Key | Datatype | Link |
 | ------------------------ | --- | -------- | ---- |
@@ -22,9 +22,9 @@
 | LastModifyingUser        |     | str      |      |
 | IdInOwningApplication    |     | str      |      |
 | LastModifyingApplication |     | str      |      |
-| SameAs                   |     | str      |      |
 | ------------------------ | --- | -------- | ---- |
-| IsDecomposedBy           |     | str      |      |
-| Decomposes               |     | str      |      |
-| ------------------------ | --- | -------- | ---- |
-| OriginalFile             |     | str      |      |
+| Comment                  |     | str      |      |
+| Location                 |     | str      |      |
+| Camera_view_point        |     | str      |      |
+| Camera_direction         |     | str      |      |
+| Camera_up_vector         |     | str      |      |

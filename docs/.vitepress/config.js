@@ -117,8 +117,44 @@ export default {
                     link: "Backend/Databases/DataExchange/",
                     items: [
                       {
+                        text: "Contexts",
+                        link: "Backend/Databases/DataExchange/Contexts",
+                      },
+                      {
+                        text: "Projects",
+                        link: "Backend/Databases/DataExchange/Projects",
+                      },
+                      {
+                        text: "Sites",
+                        link: "Backend/Databases/DataExchange/Sites",
+                      },
+                      {
                         text: "Buildings",
                         link: "Backend/Databases/DataExchange/Buildings",
+                      },
+                      {
+                        text: "Buildingstoreys",
+                        link: "Backend/Databases/DataExchange/Buildingstoreys",
+                      },
+                      {
+                        text: "Zones",
+                        link: "Backend/Databases/DataExchange/Zones",
+                      },
+                      {
+                        text: "Spaces",
+                        link: "Backend/Databases/DataExchange/Spaces",
+                      },
+                      {
+                        text: "Elements",
+                        link: "Backend/Databases/DataExchange/Elements",
+                      },
+                      {
+                        text: "PropertySets",
+                        link: "Backend/Databases/DataExchange/PropertySets",
+                      },
+                      {
+                        text: "DocumentInformations",
+                        link: "Backend/Databases/DataExchange/DocumentInformations",
                       },
                     ],
                   },
