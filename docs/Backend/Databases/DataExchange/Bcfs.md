@@ -10,7 +10,7 @@
 | Name                     |     | str      |      |
 | LongName                 |     | str      |      |
 | Description              |     | str      |      |
-| ------------------------ | --- | -------- | ---- |
+|                          |     |          |      |
 | Version                  |     | int      |      |
 | State                    |     | str      |      |
 | IsActive                 |     | boolean  |      |
@@ -22,7 +22,7 @@
 | LastModifyingUser        |     | str      |      |
 | IdInOwningApplication    |     | str      |      |
 | LastModifyingApplication |     | str      |      |
-| ------------------------ | --- | -------- | ---- |
+|                          |     |          |      |
 | Comment                  |     | str      |      |
 | Location                 |     | str      |      |
 | Camera_view_point        |     | str      |      |
