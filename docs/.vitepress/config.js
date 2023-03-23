@@ -34,6 +34,25 @@ export default {
                 link: "/Frontend/State/",
               },
               {
+                text: "Packages",
+                collapsed: true,
+                link: "/Frontend/Packages/",
+                items: [
+                  {
+                    text: "Vue",
+                    link: "/Frontend/Packages/Vue",
+                  },
+                  {
+                    text: "Mapbox",
+                    link: "/Frontend/Packages/Mapbox",
+                  },
+                  {
+                    text: "Syncfusion",
+                    link: "/Frontend/Packages/Syncfusion",
+                  },
+                ],
+              },
+              {
                 text: "Components",
                 collapsed: true,
                 link: "/Frontend/Components/",
