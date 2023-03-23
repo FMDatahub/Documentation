@@ -27,75 +27,75 @@ export default {
             items: [
               {
                 text: "Pages",
-                link: "Frontend/Pages/",
+                link: "/Frontend/Pages/",
               },
               {
                 text: "State",
-                link: "Frontend/State/",
+                link: "/Frontend/State/",
               },
               {
                 text: "Components",
                 collapsed: true,
-                link: "Frontend/Components/",
+                link: "/Frontend/Components/",
                 items: [
                   {
                     text: "Visninger",
                     collapsed: true,
-                    link: "Backend/Databases/",
+                    link: "/Backend/Databases/",
                     items: [
                       {
                         text: "Jordstykker",
-                        link: "Backend/Storage/",
+                        link: "/Backend/Storage/",
                       },
                       {
                         text: "Bygninger",
-                        link: "Backend/Databases/",
+                        link: "/Backend/Databases/",
                       },
                       {
                         text: "Etager",
-                        link: "Backend/Storage/",
+                        link: "/Backend/Storage/",
                       },
                     ],
                   },
                   {
                     text: "Header",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "Bygningsdele",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "Documents",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "Ejendomsstruktur",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "EjendomsstrukturEditor",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "GlbViewer",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "Mapbox",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "MapboxEditor",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "SvgViewer",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                   {
                     text: "User",
-                    link: "Backend/Storage/",
+                    link: "/Backend/Storage/",
                   },
                 ],
               },
@@ -109,67 +109,67 @@ export default {
               {
                 text: "Databases",
                 collapsed: true,
-                link: "Backend/Databases/",
+                link: "/Backend/Databases/",
                 items: [
                   {
                     text: "DataExchange",
                     collapsed: true,
-                    link: "Backend/Databases/DataExchange/",
+                    link: "/Backend/Databases/DataExchange/",
                     items: [
                       {
                         text: "Contexts",
-                        link: "Backend/Databases/DataExchange/Contexts",
+                        link: "/Backend/Databases/DataExchange/Contexts",
                       },
                       {
                         text: "Projects",
-                        link: "Backend/Databases/DataExchange/Projects",
+                        link: "/Backend/Databases/DataExchange/Projects",
                       },
                       {
                         text: "Sites",
-                        link: "Backend/Databases/DataExchange/Sites",
+                        link: "/Backend/Databases/DataExchange/Sites",
                       },
                       {
                         text: "Buildings",
-                        link: "Backend/Databases/DataExchange/Buildings",
+                        link: "/Backend/Databases/DataExchange/Buildings",
                       },
                       {
                         text: "Buildingstoreys",
-                        link: "Backend/Databases/DataExchange/Buildingstoreys",
+                        link: "/Backend/Databases/DataExchange/Buildingstoreys",
                       },
                       {
                         text: "Zones",
-                        link: "Backend/Databases/DataExchange/Zones",
+                        link: "/Backend/Databases/DataExchange/Zones",
                       },
                       {
                         text: "Spaces",
-                        link: "Backend/Databases/DataExchange/Spaces",
+                        link: "/Backend/Databases/DataExchange/Spaces",
                       },
                       {
                         text: "Elements",
-                        link: "Backend/Databases/DataExchange/Elements",
+                        link: "/Backend/Databases/DataExchange/Elements",
                       },
                       {
                         text: "PropertySets",
-                        link: "Backend/Databases/DataExchange/PropertySets",
+                        link: "/Backend/Databases/DataExchange/PropertySets",
                       },
                       {
                         text: "DocumentInformations",
-                        link: "Backend/Databases/DataExchange/DocumentInformations",
+                        link: "/Backend/Databases/DataExchange/DocumentInformations",
                       },
                     ],
                   },
                   {
                     text: "Foundation",
                     collapsed: true,
-                    link: "Backend/Databases/Foundation/",
+                    link: "/Backend/Databases/Foundation/",
                     items: [
                       {
                         text: "Brugere",
-                        link: "Backend/Databases/Foundation/Users",
+                        link: "/Backend/Databases/Foundation/Users",
                       },
                       {
                         text: "Organisationer",
-                        link: "Backend/Databases/Foundation/Organisations",
+                        link: "/Backend/Databases/Foundation/Organisations",
                       },
                     ],
                   },
@@ -178,7 +178,7 @@ export default {
 
               {
                 text: "Storage",
-                link: "Backend/Storage/",
+                link: "/Backend/Storage/",
               },
             ],
           },
@@ -190,33 +190,33 @@ export default {
               {
                 text: "Routers",
                 collapsed: true,
-                link: "API/Routers/",
+                link: "/API/Routers/",
                 items: [
                   {
                     text: "DataExchange",
-                    link: "API/Routers/DataExchange/",
+                    link: "/API/Routers/DataExchange/",
                   },
                   {
                     text: "Documents",
-                    link: "API/Routers/Documents/",
+                    link: "/API/Routers/Documents/",
                   },
                   {
                     text: "Foundation",
-                    link: "API/Routers/Foundation/",
+                    link: "/API/Routers/Foundation/",
                   },
                   {
                     text: "Services",
-                    link: "API/Routers/Services/",
+                    link: "/API/Routers/Services/",
                   },
                 ],
               },
               {
                 text: "Active Directory",
-                link: "API/ActiveDirectory/",
+                link: "/API/ActiveDirectory/",
               },
               {
                 text: "API Management",
-                link: "API/APIManagement/",
+                link: "/API/APIManagement/",
               },
             ],
           },
@@ -227,19 +227,19 @@ export default {
             items: [
               {
                 text: "Branches",
-                link: "Devops/Branches/",
+                link: "/Devops/Branches/",
               },
               {
                 text: "Keyvault",
-                link: "Devops/Keyvault/",
+                link: "/Devops/Keyvault/",
               },
               {
                 text: "Pipelines",
-                link: "Devops/Pipelines/",
+                link: "/Devops/Pipelines/",
               },
               {
                 text: "InfrastructureAsCode",
-                link: "Devops/InfrastructureAsCode/",
+                link: "/Devops/InfrastructureAsCode/",
               },
             ],
           },
@@ -250,28 +250,28 @@ export default {
             items: [
               {
                 text: "Eventhub",
-                link: "Events/Eventhub/",
+                link: "/Events/Eventhub/",
               },
               {
                 text: "Queues",
-                link: "Events/Queues/",
+                link: "/Events/Queues/",
               },
               {
                 text: "Functions",
                 collapsed: true,
-                link: "Events/Functions/",
+                link: "/Events/Functions/",
                 items: [
                   {
                     text: "IfcToDB",
-                    link: "Events/Eventhub/",
+                    link: "/Events/Eventhub/",
                   },
                   {
                     text: "IfcToSvg",
-                    link: "Events/Queues/",
+                    link: "/Events/Queues/",
                   },
                   {
                     text: "IfcToGlb",
-                    link: "Events/Functions/",
+                    link: "/Events/Functions/",
                   },
                 ],
               },
@@ -284,11 +284,11 @@ export default {
             items: [
               {
                 text: "Fagsystemer",
-                link: "Integrationer/Fagsystemer/",
+                link: "/Integrationer/Fagsystemer/",
               },
               {
                 text: "Offentlige registre",
-                link: "Integrationer/Offentlige/",
+                link: "/Integrationer/Offentlige/",
               },
             ],
           },
