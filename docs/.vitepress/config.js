@@ -158,6 +158,21 @@ export default {
                       },
                     ],
                   },
+                  {
+                    text: "Foundation",
+                    collapsed: true,
+                    link: "Backend/Databases/Foundation/",
+                    items: [
+                      {
+                        text: "Brugere",
+                        link: "Backend/Databases/Foundation/Users",
+                      },
+                      {
+                        text: "Organisationer",
+                        link: "Backend/Databases/Foundation/Organisations",
+                      },
+                    ],
+                  },
                 ],
               },
 
