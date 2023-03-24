@@ -52,6 +52,7 @@ export default {
                   },
                 ],
               },
+
               {
                 text: "Components",
                 collapsed: true,
@@ -117,6 +118,93 @@ export default {
                     link: "/Backend/Storage/",
                   },
                 ],
+              },
+            ],
+          },
+          {
+            text: "Events",
+            collapsed: true,
+            link: "/Events/",
+            items: [
+              {
+                text: "Eventhub",
+                link: "/Events/Eventhub/",
+              },
+              {
+                text: "Queues",
+                link: "/Events/Queues/",
+              },
+              {
+                text: "Functions",
+                collapsed: true,
+                link: "/Events/Functions/",
+                items: [
+                  {
+                    text: "IfcToDB",
+                    link: "/Events/Eventhub/",
+                  },
+                  {
+                    text: "IfcToSvg",
+                    link: "/Events/Queues/",
+                  },
+                  {
+                    text: "IfcToGlb",
+                    link: "/Events/Functions/",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "API",
+            collapsed: true,
+            link: "/API/",
+            items: [
+              {
+                text: "Routers",
+                collapsed: true,
+                link: "/API/Routers/",
+                items: [
+                  {
+                    text: "DataExchange",
+                    link: "/API/Routers/DataExchange/",
+                  },
+                  {
+                    text: "Documents",
+                    link: "/API/Routers/Documents/",
+                  },
+                  {
+                    text: "Foundation",
+                    link: "/API/Routers/Foundation/",
+                  },
+                  {
+                    text: "Services",
+                    link: "/API/Routers/Services/",
+                  },
+                ],
+              },
+              {
+                text: "Active Directory",
+                link: "/API/ActiveDirectory/",
+              },
+              {
+                text: "API Management",
+                link: "/API/APIManagement/",
+              },
+            ],
+          },
+          {
+            text: "Integrationer",
+            collapsed: true,
+            link: "/Integrationer/",
+            items: [
+              {
+                text: "Fagsystemer",
+                link: "/Integrationer/Fagsystemer/",
+              },
+              {
+                text: "Offentlige registre",
+                link: "/Integrationer/Offentlige/",
               },
             ],
           },
@@ -204,47 +292,13 @@ export default {
               },
             ],
           },
+          {
+            text: "Datadictionary",
+            link: "/Datadictionary/",
+          },
 
           {
-            text: "API",
-            collapsed: true,
-            link: "/API/",
-            items: [
-              {
-                text: "Routers",
-                collapsed: true,
-                link: "/API/Routers/",
-                items: [
-                  {
-                    text: "DataExchange",
-                    link: "/API/Routers/DataExchange/",
-                  },
-                  {
-                    text: "Documents",
-                    link: "/API/Routers/Documents/",
-                  },
-                  {
-                    text: "Foundation",
-                    link: "/API/Routers/Foundation/",
-                  },
-                  {
-                    text: "Services",
-                    link: "/API/Routers/Services/",
-                  },
-                ],
-              },
-              {
-                text: "Active Directory",
-                link: "/API/ActiveDirectory/",
-              },
-              {
-                text: "API Management",
-                link: "/API/APIManagement/",
-              },
-            ],
-          },
-          {
-            text: "Devops",
+            text: "Devops / Github",
             collapsed: true,
             link: "/Devops/",
             items: [
@@ -263,55 +317,6 @@ export default {
               {
                 text: "InfrastructureAsCode",
                 link: "/Devops/InfrastructureAsCode/",
-              },
-            ],
-          },
-          {
-            text: "Events",
-            collapsed: true,
-            link: "/Events/",
-            items: [
-              {
-                text: "Eventhub",
-                link: "/Events/Eventhub/",
-              },
-              {
-                text: "Queues",
-                link: "/Events/Queues/",
-              },
-              {
-                text: "Functions",
-                collapsed: true,
-                link: "/Events/Functions/",
-                items: [
-                  {
-                    text: "IfcToDB",
-                    link: "/Events/Eventhub/",
-                  },
-                  {
-                    text: "IfcToSvg",
-                    link: "/Events/Queues/",
-                  },
-                  {
-                    text: "IfcToGlb",
-                    link: "/Events/Functions/",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            text: "Integrationer",
-            collapsed: true,
-            link: "/Integrationer/",
-            items: [
-              {
-                text: "Fagsystemer",
-                link: "/Integrationer/Fagsystemer/",
-              },
-              {
-                text: "Offentlige registre",
-                link: "/Integrationer/Offentlige/",
               },
             ],
           },
