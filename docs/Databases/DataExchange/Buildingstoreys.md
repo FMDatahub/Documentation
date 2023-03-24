@@ -35,3 +35,11 @@
 | Polygon                  |     | polygon  | [Åben](https://fmdatahub.github.io/Datadictionary/Attributes/Polygon.html)                  |
 |                          |     |          |                                                                                             |
 | Elevation                |     | float    | [Åben](https://fmdatahub.github.io/Datadictionary/Attributes/Elevation.html)                |
+|                          |     |          |                                                                                             |
+| SvgWallsExtorier         |     | str      |                                                                                             |
+| SvgWallsInterior         |     | str      |                                                                                             |
+| SvgWindows               |     | str      |                                                                                             |
+| SvgDoors                 |     | str      |                                                                                             |
+| SvgStairs                |     | str      |                                                                                             |
+| SvgRoofs                 |     | str      |                                                                                             |
+| SvgVVS                   |     | str      |                                                                                             |

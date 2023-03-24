@@ -121,86 +121,90 @@ export default {
             ],
           },
           {
-            text: "Backend",
+            text: "Databases",
             collapsed: true,
-            link: "/Backend/",
+            link: "/Databases/",
             items: [
               {
-                text: "Databases",
+                text: "DataExchange",
                 collapsed: true,
-                link: "/Backend/Databases/",
+                link: "/Databases/DataExchange/",
                 items: [
                   {
-                    text: "DataExchange",
-                    collapsed: true,
-                    link: "/Backend/Databases/DataExchange/",
-                    items: [
-                      {
-                        text: "Contexts",
-                        link: "/Backend/Databases/DataExchange/Contexts",
-                      },
-                      {
-                        text: "Projects",
-                        link: "/Backend/Databases/DataExchange/Projects",
-                      },
-                      {
-                        text: "Sites",
-                        link: "/Backend/Databases/DataExchange/Sites",
-                      },
-                      {
-                        text: "Buildings",
-                        link: "/Backend/Databases/DataExchange/Buildings",
-                      },
-                      {
-                        text: "Buildingstoreys",
-                        link: "/Backend/Databases/DataExchange/Buildingstoreys",
-                      },
-                      {
-                        text: "Zones",
-                        link: "/Backend/Databases/DataExchange/Zones",
-                      },
-                      {
-                        text: "Spaces",
-                        link: "/Backend/Databases/DataExchange/Spaces",
-                      },
-                      {
-                        text: "Elements",
-                        link: "/Backend/Databases/DataExchange/Elements",
-                      },
-                      {
-                        text: "PropertySets",
-                        link: "/Backend/Databases/DataExchange/PropertySets",
-                      },
-                      {
-                        text: "DocumentInformations",
-                        link: "/Backend/Databases/DataExchange/DocumentInformations",
-                      },
-                    ],
+                    text: "Contexts",
+                    link: "/Databases/DataExchange/Contexts",
                   },
                   {
-                    text: "Foundation",
-                    collapsed: true,
-                    link: "/Backend/Databases/Foundation/",
-                    items: [
-                      {
-                        text: "Brugere",
-                        link: "/Backend/Databases/Foundation/Users",
-                      },
-                      {
-                        text: "Organisationer",
-                        link: "/Backend/Databases/Foundation/Organisations",
-                      },
-                    ],
+                    text: "Projects",
+                    link: "/Databases/DataExchange/Projects",
+                  },
+                  {
+                    text: "Sites",
+                    link: "/Databases/DataExchange/Sites",
+                  },
+                  {
+                    text: "Buildings",
+                    link: "/Databases/DataExchange/Buildings",
+                  },
+                  {
+                    text: "Buildingstoreys",
+                    link: "/Databases/DataExchange/Buildingstoreys",
+                  },
+                  {
+                    text: "Zones",
+                    link: "/Databases/DataExchange/Zones",
+                  },
+                  {
+                    text: "Spaces",
+                    link: "/Databases/DataExchange/Spaces",
+                  },
+                  {
+                    text: "Elements",
+                    link: "/Databases/DataExchange/Elements",
+                  },
+                  {
+                    text: "PropertySets",
+                    link: "/Databases/DataExchange/PropertySets",
+                  },
+                  {
+                    text: "DocumentInformations",
+                    link: "/Databases/DataExchange/DocumentInformations",
                   },
                 ],
               },
-
               {
-                text: "Storage",
-                link: "/Backend/Storage/",
+                text: "Foundation",
+                collapsed: true,
+                link: "/Databases/Foundation/",
+                items: [
+                  {
+                    text: "Brugere",
+                    link: "/Databases/Foundation/Users",
+                  },
+                  {
+                    text: "Organisationer",
+                    link: "/Databases/Foundation/Organisations",
+                  },
+                ],
               },
             ],
           },
+          {
+            text: "Datalake",
+            collapsed: true,
+            link: "/Datalake/",
+            items: [
+              {
+                text: "Ingest",
+                link: "/Datalake/Ingest/",
+              },
+              {
+                text: "Transform",
+                link: "/Datalake/Transform/",
+              },
+            ],
+          },
+
           {
             text: "API",
             collapsed: true,
