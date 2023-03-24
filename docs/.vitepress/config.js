@@ -278,17 +278,17 @@ export default {
             ],
           },
           {
-            text: "Datalake",
+            text: "Datalakes",
             collapsed: true,
-            link: "/Datalake/",
+            link: "/Datalakes/",
             items: [
               {
                 text: "Importering",
-                link: "/Datalake/Ingest/",
+                link: "/Datalakes/Ingest/",
               },
               {
                 text: "Transformering",
-                link: "/Datalake/Transform/",
+                link: "/Datalakes/Transform/",
               },
             ],
           },
