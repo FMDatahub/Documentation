@@ -50,6 +50,14 @@ export default {
                     text: "Syncfusion",
                     link: "/Frontend/Packages/Syncfusion",
                   },
+                  {
+                    text: "Three",
+                    link: "/Frontend/Packages/Three",
+                  },
+                  {
+                    text: "VueSvgPanZoom",
+                    link: "/Frontend/Packages/VueSvgPanZoom",
+                  },
                 ],
               },
 
