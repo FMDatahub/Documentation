@@ -194,7 +194,7 @@ export default {
             ],
           },
           {
-            text: "Integrationer",
+            text: "Integrations",
             collapsed: true,
             link: "/Integrationer/",
             items: [
