@@ -195,11 +195,11 @@ export default {
             link: "/Datalake/",
             items: [
               {
-                text: "Ingest",
+                text: "Importering",
                 link: "/Datalake/Ingest/",
               },
               {
-                text: "Transform",
+                text: "Transformering",
                 link: "/Datalake/Transform/",
               },
             ],
