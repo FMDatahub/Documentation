@@ -207,12 +207,16 @@ export default {
             link: "/Integrationer/",
             items: [
               {
-                text: "Fagsystemer",
-                link: "/Integrationer/Fagsystemer/",
+                text: "Revit",
+                link: "/Integrationer/Fagsystemer/Revit/",
               },
               {
-                text: "Offentlige registre",
-                link: "/Integrationer/Offentlige/",
+                text: "Timesafe",
+                link: "/Integrationer/Fagsystemer/Timesafe/",
+              },
+              {
+                text: "BBR",
+                link: "/Integrationer/Fagsystemer/BBR/",
               },
             ],
           },
