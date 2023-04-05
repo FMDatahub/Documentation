@@ -1,3 +1,116 @@
+import {createRequire} from "module";
+const require = createRequire(import.meta.url);
+
+const fs = require("fs");
+const path = require("path");
+
+function extractTitle(content) {
+  const titleRegex = /^#\s+(.+)$/m;
+  const match = content.match(titleRegex);
+  return match ? match[1] : null;
+}
+
+const sortOrder = [
+  "DataTemplates",
+  "Attributesets",
+  "Attributes",
+  "Propertysets",
+  "Properties",
+  "Quantitysets",
+  "Quantities",
+  "Documents",
+  "ValueLists",
+];
+
+function sortEntries(a, b) {
+  const aIndex = sortOrder.indexOf(a.name);
+  const bIndex = sortOrder.indexOf(b.name);
+
+  if (aIndex > -1 && bIndex > -1) {
+    return aIndex - bIndex;
+  } else if (aIndex > -1) {
+    return -1;
+  } else if (bIndex > -1) {
+    return 1;
+  }
+
+  if (a.isDirectory() && b.isDirectory()) {
+    return a.name.localeCompare(b.name);
+  }
+  return a.isDirectory()
+    ? -1
+    : b.isDirectory()
+    ? 1
+    : a.name.localeCompare(b.name);
+}
+
+function generateSidebar(dir = "../../docs", basePath = "/") {
+  const docsDir = path.resolve(__dirname, dir);
+  let entries = [];
+
+  try {
+    entries = fs.readdirSync(docsDir, {withFileTypes: true});
+  } catch (err) {
+    console.error(`Error reading directory "${docsDir}":`, err.message);
+    return [];
+  }
+
+  entries.sort(sortEntries);
+
+  const sidebar = entries
+    .filter((entry) => !entry.name.startsWith("."))
+    .map((entry) => {
+      if (entry.isDirectory()) {
+        const folderPath = path.join(basePath, entry.name);
+        const indexPath = path.join(folderPath, "index");
+        const children = generateSidebar(
+          path.join(dir, entry.name),
+          folderPath
+        );
+
+        const indexFilePath = path.join(docsDir, entry.name, "index.md");
+
+        let title = entry.name;
+        if (fs.existsSync(indexFilePath)) {
+          // Read the content of the index.md file
+          const indexContent = fs.readFileSync(indexFilePath, "utf-8");
+
+          // Extract the title from the content
+          title = extractTitle(indexContent) || entry.name;
+        }
+
+        return {
+          text: title,
+          link: indexPath,
+          items: children,
+          collapsed: true,
+        };
+      } else {
+        const fileWithoutExtension = entry.name.replace(/.md$/, "");
+        const filePath = path.join(basePath, fileWithoutExtension);
+
+        if (fileWithoutExtension !== "index") {
+          // Read the content of the .md file
+          const content = fs.readFileSync(
+            path.join(docsDir, entry.name),
+            "utf-8"
+          );
+
+          // Extract the title from the content
+          const title = extractTitle(content) || fileWithoutExtension;
+
+          return {
+            text: title,
+            link: filePath,
+          };
+        }
+      }
+    })
+    .filter((entry) => entry !== undefined);
+
+  return sidebar;
+}
+
 export default {
   title: "Dokumentation",
   description: "Dokumentation for Datahub",
@@ -17,332 +130,6 @@ export default {
         "https://github.com/FMDatahub/Documentation/tree/main/docs/:path",
       text: "Rediger denne side på GitHub",
     },
-    sidebar: [
-      {
-        items: [
-          {
-            text: "Frontend",
-            collapsed: true,
-            link: "/Frontend/",
-            items: [
-              {
-                text: "Pages",
-                link: "/Frontend/Pages/",
-              },
-              {
-                text: "State",
-                link: "/Frontend/State/",
-              },
-              {
-                text: "Packages",
-                collapsed: true,
-                link: "/Frontend/Packages/",
-                items: [
-                  {
-                    text: "Vue",
-                    link: "/Frontend/Packages/Vue",
-                  },
-                  {
-                    text: "Mapbox",
-                    link: "/Frontend/Packages/Mapbox",
-                  },
-                  {
-                    text: "Syncfusion",
-                    link: "/Frontend/Packages/Syncfusion",
-                  },
-                  {
-                    text: "Three",
-                    link: "/Frontend/Packages/Three",
-                  },
-                  {
-                    text: "VueSvgPanZoom",
-                    link: "/Frontend/Packages/VueSvgPanZoom",
-                  },
-                ],
-              },
-
-              {
-                text: "Components",
-                collapsed: true,
-                link: "/Frontend/Components/",
-                items: [
-                  {
-                    text: "Visninger",
-                    collapsed: true,
-                    link: "/Backend/Databases/",
-                    items: [
-                      {
-                        text: "Jordstykker",
-                        link: "/Backend/Storage/",
-                      },
-                      {
-                        text: "Bygninger",
-                        link: "/Backend/Databases/",
-                      },
-                      {
-                        text: "Etager",
-                        link: "/Backend/Storage/",
-                      },
-                    ],
-                  },
-                  {
-                    text: "Header",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "Bygningsdele",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "Documents",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "Ejendomsstruktur",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "EjendomsstrukturEditor",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "GlbViewer",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "Mapbox",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "MapboxEditor",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "SvgViewer",
-                    link: "/Backend/Storage/",
-                  },
-                  {
-                    text: "User",
-                    link: "/Backend/Storage/",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            text: "Events",
-            collapsed: true,
-            link: "/Events/",
-            items: [
-              {
-                text: "Eventhub",
-                link: "/Events/Eventhub/",
-              },
-              {
-                text: "Queues",
-                link: "/Events/Queues/",
-              },
-              {
-                text: "Functions",
-                collapsed: true,
-                link: "/Events/Functions/",
-                items: [
-                  {
-                    text: "IfcToDB",
-                    link: "/Events/Eventhub/",
-                  },
-                  {
-                    text: "IfcToSvg",
-                    link: "/Events/Queues/",
-                  },
-                  {
-                    text: "IfcToGlb",
-                    link: "/Events/Functions/",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            text: "API",
-            collapsed: true,
-            link: "/API/",
-            items: [
-              {
-                text: "Routers",
-                collapsed: true,
-                link: "/API/Routers/",
-                items: [
-                  {
-                    text: "DataExchange",
-                    link: "/API/Routers/DataExchange/",
-                  },
-                  {
-                    text: "Documents",
-                    link: "/API/Routers/Documents/",
-                  },
-                  {
-                    text: "Foundation",
-                    link: "/API/Routers/Foundation/",
-                  },
-                  {
-                    text: "Services",
-                    link: "/API/Routers/Services/",
-                  },
-                ],
-              },
-              {
-                text: "Active Directory",
-                link: "/API/ActiveDirectory/",
-              },
-              {
-                text: "API Management",
-                link: "/API/APIManagement/",
-              },
-            ],
-          },
-          {
-            text: "Integrations",
-            collapsed: true,
-            link: "/Integrationer/",
-            items: [
-              {
-                text: "Revit",
-                link: "/Integrationer/Fagsystemer/Revit/",
-              },
-              {
-                text: "Timesafe",
-                link: "/Integrationer/Fagsystemer/Timesafe/",
-              },
-              {
-                text: "BBR",
-                link: "/Integrationer/Fagsystemer/BBR/",
-              },
-            ],
-          },
-          {
-            text: "Databases",
-            collapsed: true,
-            link: "/Databases/",
-            items: [
-              {
-                text: "DataExchange",
-                collapsed: true,
-                link: "/Databases/DataExchange/",
-                items: [
-                  {
-                    text: "Contexts",
-                    link: "/Databases/DataExchange/Contexts",
-                  },
-                  {
-                    text: "Projects",
-                    link: "/Databases/DataExchange/Projects",
-                  },
-                  {
-                    text: "Sites",
-                    link: "/Databases/DataExchange/Sites",
-                  },
-                  {
-                    text: "Buildings",
-                    link: "/Databases/DataExchange/Buildings",
-                  },
-                  {
-                    text: "Buildingstoreys",
-                    link: "/Databases/DataExchange/Buildingstoreys",
-                  },
-                  {
-                    text: "Zones",
-                    link: "/Databases/DataExchange/Zones",
-                  },
-                  {
-                    text: "Spaces",
-                    link: "/Databases/DataExchange/Spaces",
-                  },
-                  {
-                    text: "Elements",
-                    link: "/Databases/DataExchange/Elements",
-                  },
-                  {
-                    text: "PropertySets",
-                    link: "/Databases/DataExchange/PropertySets",
-                  },
-                  {
-                    text: "DocumentInformations",
-                    link: "/Databases/DataExchange/DocumentInformations",
-                  },
-                ],
-              },
-              {
-                text: "Foundation",
-                collapsed: true,
-                link: "/Databases/Foundation/",
-                items: [
-                  {
-                    text: "Brugere",
-                    link: "/Databases/Foundation/Users",
-                  },
-                  {
-                    text: "Organisationer",
-                    link: "/Databases/Foundation/Organisations",
-                  },
-                ],
-              },
-            ],
-          },
-          {
-            text: "Datalakes",
-            collapsed: true,
-            link: "/Datalakes/",
-            items: [
-              {
-                text: "Importering",
-                link: "/Datalakes/Ingest/",
-              },
-              {
-                text: "Transformering",
-                link: "/Datalakes/Transform/",
-              },
-            ],
-          },
-          {
-            text: "Datadictionary",
-            link: "/Datadictionary/",
-          },
-
-          {
-            text: "Devops / Github",
-            collapsed: true,
-            link: "/Devops/",
-            items: [
-              {
-                text: "Branches",
-                link: "/Devops/Branches/",
-              },
-              {
-                text: "Keyvault",
-                link: "/Devops/Keyvault/",
-              },
-              {
-                text: "Pipelines",
-                link: "/Devops/Pipelines/",
-              },
-              {
-                text: "InfrastructureAsCode",
-                link: "/Devops/InfrastructureAsCode/",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        text: "Links",
-        items: [
-          {
-            text: "Portal",
-            link: "https://fmdatahub.github.io/Portal/",
-          },
-        ],
-      },
-    ],
+    sidebar: generateSidebar(),
   },
 };
