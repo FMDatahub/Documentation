@@ -6,5 +6,4 @@ Et komponent består typisk af HTML-kode, CSS-styling og JavaScript-kode, der de
 
 Komponenter i webudvikling gør det muligt at opdele en større applikation i mindre, mere overskuelige dele, som kan udvikles og testes separat. Komponenter kan også genbruges i forskellige dele af en applikation og i forskellige applikationer, hvilket kan føre til mere effektiv udvikling og vedligeholdelse af webapplikationer.
 
-
 ![DatahubProduktion](Frontend.png)

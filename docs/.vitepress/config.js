@@ -11,15 +11,13 @@ function extractTitle(content) {
 }
 
 const sortOrder = [
-  "DataTemplates",
-  "Attributesets",
-  "Attributes",
-  "Propertysets",
-  "Properties",
-  "Quantitysets",
-  "Quantities",
-  "Documents",
-  "ValueLists",
+  "Frontend",
+  "API",
+  "Events",
+  "Integrationer",
+  "Devops",
+  "Databases",
+  "Datalakes",
 ];
 
 function sortEntries(a, b) {
@@ -58,7 +56,11 @@ function generateSidebar(dir = "../../docs", basePath = "/") {
   entries.sort(sortEntries);
 
   const sidebar = entries
-    .filter((entry) => !entry.name.startsWith("."))
+    .filter(
+      (entry) =>
+        !entry.name.startsWith(".") &&
+        (entry.isDirectory() || entry.name.endsWith(".md"))
+    )
     .map((entry) => {
       if (entry.isDirectory()) {
         const folderPath = path.join(basePath, entry.name);
