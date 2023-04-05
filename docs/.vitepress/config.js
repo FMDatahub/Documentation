@@ -119,7 +119,7 @@ export default {
   srcDir: "./",
   lastUpdated: false,
   base: "/Documentation/",
-  ///cleanUrls: true,
+  cleanUrls: true,
   ignoreDeadLinks: true,
   themeConfig: {
     algolia: {
