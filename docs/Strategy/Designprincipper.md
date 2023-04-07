@@ -1,6 +1,6 @@
 # Design principper
 
-## Princip 1
+## Designprincip 1
 
 En simpel og stepvis tilgang til design og udvikling af nye IT-løsninger
 
@@ -12,7 +12,7 @@ En simpel og stepvis tilgang til design og udvikling af nye IT-løsninger
 
 ### Hvordan
 
-## Princip 2
+## Designprincip 2
 
 En leverancemodel med kontrolleret styring og minimal afhængighed
 
@@ -24,7 +24,7 @@ En leverancemodel med kontrolleret styring og minimal afhængighed
 
 ### Hvordan
 
-## Princip 3
+## Designprincip 3
 
 IT-løsninger skal inkorporere sikkerhed og compliance ved design
 
@@ -36,7 +36,7 @@ IT-løsninger skal inkorporere sikkerhed og compliance ved design
 
 ### Hvordan
 
-## Princip 4
+## Designprincip 4
 
 Anerkendte og standard teknologier skal prioriteres ved IT-anskaffelse
 
@@ -48,7 +48,7 @@ Anerkendte og standard teknologier skal prioriteres ved IT-anskaffelse
 
 ### Hvordan
 
-## Princip 5
+## Designprincip 5
 
 IT-løsninger skal sætte brugernes behov i centrum
 
@@ -60,7 +60,7 @@ IT-løsninger skal sætte brugernes behov i centrum
 
 ### Hvordan
 
-## Princip 6
+## Designprincip 6
 
 IT-arkutekturen skal have fokus på den tværgående forretningsunderstøttelse
 
@@ -72,7 +72,7 @@ IT-arkutekturen skal have fokus på den tværgående forretningsunderstøttelse
 
 ### Hvordan
 
-## Princip 7
+## Designprincip 7
 
 Anvend fællesoffentlige autoritative reference- og grunddata samt åbne dataformater
 
@@ -84,7 +84,7 @@ Anvend fællesoffentlige autoritative reference- og grunddata samt åbne datafor
 
 ### Hvordan
 
-## Princip 8
+## Designprincip 8
 
 IT-arkitekturen skal understøtte en datadrevet tilgang
 
@@ -96,7 +96,7 @@ IT-arkitekturen skal understøtte en datadrevet tilgang
 
 ### Hvordan
 
-## Princip 9
+## Designprincip 9
 
 Processer og data er dokumenteret og har en ejer
 
@@ -108,7 +108,7 @@ Processer og data er dokumenteret og har en ejer
 
 ### Hvordan
 
-## Princip 10
+## Designprincip 10
 
 En modulær og agil IT-arkitektur med løst koblet systemer og veldefinerede integrationer
 
