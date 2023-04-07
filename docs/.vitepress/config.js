@@ -11,6 +11,7 @@ function extractTitle(content) {
 }
 
 const sortOrder = [
+  "Strategy",
   "Frontend",
   "API",
   "Events",
@@ -19,7 +20,6 @@ const sortOrder = [
   "Databases",
   "Datalakes",
   "Guides",
-  "Strategy",
   "FM-Modules",
   "FM-Systems",
 ];
