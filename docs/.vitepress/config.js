@@ -18,6 +18,10 @@ const sortOrder = [
   "Devops",
   "Databases",
   "Datalakes",
+  "Guides",
+  "Strategy",
+  "FM-Modules",
+  "FM-Systems",
 ];
 
 function sortEntries(a, b) {
