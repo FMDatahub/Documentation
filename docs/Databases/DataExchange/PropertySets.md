@@ -1,5 +1,11 @@
 # Egenskabssæt
 
+## Beskrivelse
+
+?
+
+## Tabel
+
 | Column                   | Key | Datatype | Link                                                                                        |
 | ------------------------ | --- | -------- | ------------------------------------------------------------------------------------------- |
 | Id                       | PK  | int      | [Åben](https://fmdatahub.github.io/Datadictionary/Attributes/Id.html)                       |
