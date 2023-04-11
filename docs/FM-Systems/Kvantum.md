@@ -8,10 +8,9 @@
 
 > Ingen
 
-### Data
+### Beskrivelse
 
-- Input
-- Output
+?
 
 ### Integration
 
@@ -19,8 +18,4 @@ Ikke integreret
 
 ### Link
 
-- ?
-
-### Help us stay updated
-
-> [Rediger](https://github.com/FMDatahub/Portal/blob/main/docs/Systemer/Kvantum/index.md)
+?

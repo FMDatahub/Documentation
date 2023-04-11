@@ -2,16 +2,7 @@
 
 ### Beskrivelse
 
-> ?
-
-### Understøtter følgende forretningsbehov
-
-> Ingen
-
-### Data
-
-- Input
-- Output
+BBR står for Bygnings- og Boligregistret. Det er et dansk register, der indeholder oplysninger om alle bygninger og boliger i landet. BBR indeholder informationer som bygningens størrelse, anvendelse, ejerforhold og energimærkning. Dette register hjælper med at holde styr på ejendomsdata og er en vigtig kilde til information for både offentlige myndigheder og private virksomheder.
 
 ### Integration
 
@@ -19,8 +10,4 @@ Ikke integreret
 
 ### Link
 
-- ?
-
-### Help us stay updated
-
-> [Rediger](https://github.com/FMDatahub/Portal/blob/main/docs/Systemer/BBR/index.md)
+?
