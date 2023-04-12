@@ -4,6 +4,8 @@
 
 Prædefineret liste over mulige værdier for en bestemt egenskab. Værdilister bruges til at begrænse de tilladte værdier for en egenskab og sikre, at dataene forbliver konsistente og standardiserede på tværs af systemet.
 
+Det er den primære liste der tilsvare et datafelt, ved at connect til denne værdiliste får man altid de seneste værdier.
+
 ## Endpoint
 
 ?
