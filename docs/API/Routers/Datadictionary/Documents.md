@@ -28,7 +28,7 @@ Typisk til en fil eller et sæt af oplysninger, der beskriver et produkt, en byg
   "FileExtension": "", // Data type
   "URI": "", // Link til dette json objekt
   "LOI": "", // I hvilke LOI er dette objekt relevant?
-  "Attributes": "", // Tilknyttet attributesets
+  "Attributes": [], // Tilknyttet attributesets
   "Propertysets": [], // Tilknyttet propertysets
   "PredefinedValues": [{"key:value"}], // Værdier som indsættes ved oprettelse
 }

@@ -29,7 +29,6 @@ Et træk eller en karakteristik ved et produkt, materiale eller bygningsdel. Ege
   "URI": "", // Link til dette json objekt
   "Purposes": "", // I hvilke formål er dette objekt relevant?
   "LOI": "", // I hvilke LOI er dette objekt relevant?
-  "CCICode": "", // Unik kode fra CCI
   "Unit": "" // Hvilken enhed
 }
 ```
