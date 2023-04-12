@@ -26,8 +26,6 @@ Specifikke data, der er knyttet til en egenskab, attribut eller variabel. Værdi
   "DomainVersion": "", // Domæne version
   "Owner": "", // Udgiver
   "DataType": "", // Data type
-  "URI": "", // Link til dette json objekt
-  "Purposes": "", // I hvilke formål er dette objekt relevant?
-  "Options": "" // Objekt der indeholder valgmulighederne
+  "URI": "" // Link til dette json objekt
 }
 ```

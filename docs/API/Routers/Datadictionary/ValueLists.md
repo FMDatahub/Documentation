@@ -27,7 +27,6 @@ Prædefineret liste over mulige værdier for en bestemt egenskab. Værdilister b
   "Owner": "", // Udgiver
   "DataType": "", // Data type
   "URI": "", // Link til dette json objekt
-  "Purposes": "", // I hvilke formål er dette objekt relevant?
-  "Values": "" // Tilknyttet values
+  "Options": "" // Tilknyttet valgmuligheder - Bliver skabt ved at løbe mappestrukturen igennem, og tilføje værdierne som objekter
 }
 ```
