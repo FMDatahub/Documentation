@@ -4,13 +4,13 @@
 
 ?
 
-## Integration
-
-Ikke integreret
-
-## Hændelser / Events
+## Hændelser
 
 Ingen
+
+## Handlers
+
+?
 
 ## Link
 
