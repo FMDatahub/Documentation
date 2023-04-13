@@ -1,4 +1,4 @@
-# Databaser
+# Database
 
 En database er en struktureret samling af data, der er organiseret, så det er nemt at tilgå, administrere og opdatere. Databaser bruges til at gemme og organisere store mængder data på en struktureret måde, så det kan tilgås og manipuleres på en effektiv og sikker måde.
 
