@@ -1,5 +1,9 @@
 # Design principper
 
+Designprincipperne har til formål at oversætte den overordnede vision for det eksisterende IT-målbillede til konkrete designprincipper, som er med til at sikre at visionen holdes i centrum i designprocessen ved udarbejdelse af målarkitekturen.
+
+Dette opbygger en fælles forståelse og sikrer en ensartet spilleplade og beslutningsgrundlag med konkrete ‘regler’ for design og udvikling på tværs af fagsystemer og FM Data Hub –samt det øvrige systemlandskab med kobling til integrations-og KK services.
+
 ## Designprincip 1
 
 En simpel og stepvis tilgang til design og udvikling af nye IT-løsninger
