@@ -11,3 +11,7 @@ Er et klassifikationssystem, der bruges i bygge- og anlægsbranchen. Det organis
 ## A104 - Informationshåndtering
 
 Informationshåndtering refererer til processen med at organisere, opbevare og kontrollere adgangen til information og data. Det indebærer at indsamle, sortere og analysere information på en systematisk måde, så det er nemt at finde og bruge for de involverede parter. I en meget simpel forstand handler det om at holde styr på information, så den er tilgængelig og nyttig for alle, der har brug for den.
+
+## ISO 19650 - Common Data Environment (CDE)
+
+International standard for bygningsinformationsmodellering (BIM) i byggeri og anlægsbranchen. Standarden beskriver processer og arbejdsgange for effektiv og korrekt udveksling af digital information mellem parterne i byggeprojekter. ISO 19650 er opdelt i flere dele, hvor de to første dækker overordnede principper og processer, mens de efterfølgende dele fokuserer på mere specifikke aspekter af BIM. Standarden bidrager til at sikre en struktureret og ensartet måde at arbejde med BIM på, hvilket forbedrer samarbejde, effektivitet og kvalitet i byggeprojekter.
