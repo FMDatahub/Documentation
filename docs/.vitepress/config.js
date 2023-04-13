@@ -123,7 +123,7 @@ export default {
     algolia: {
       appId: "L8J7OTWO4E",
       apiKey: "2e16bb09684bc1e95c25894db01b7d9d",
-      indexName: "umentation",
+      indexName: "umentationumentation",
     },
     editLink: {
       pattern:
