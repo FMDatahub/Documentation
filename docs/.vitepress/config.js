@@ -135,7 +135,7 @@ export default {
         text: "Dataordbog",
         link: "https://fmdatahub.github.io/Datadictionary/",
         target: "_self",
-        rel: false,
+        rel: true,
       },
     ],
     sidebar: generateSidebar(),
