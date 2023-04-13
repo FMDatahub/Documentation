@@ -11,14 +11,9 @@ function extractTitle(content) {
 }
 
 const sortOrder = [
-  "Strategy",
-  "Frontend",
-  "API",
-  "Events",
-  "Integrationer",
-  "Devops",
-  "Databases",
-  "Datalakes",
+  "Strategi",
+  "Datahub",
+  "Glaspladen",
   "Guides",
   "FM-Modules",
   "FM-Systems",
