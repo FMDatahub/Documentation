@@ -14,6 +14,16 @@ En handler vil indtil videre primært være en funktion
 
 - Hvad skal køre på hvilke events
 
+## Svartider
+
+## Tilgængelighed
+
+## Support
+
+## Mapping tabel
+
+Mapningen fra leverandør datamodel til Datahub datamodel
+
 ## Link
 
 https://bbr.dk/
