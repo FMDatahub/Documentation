@@ -11,12 +11,11 @@ function extractTitle(content) {
 }
 
 const sortOrder = [
-  "Strategi",
+  "Strategy",
+  "BusinessNeeds",
   "Datahub",
   "Glaspladen",
   "Guides",
-  "FM-Modules",
-  "FM-Systems",
 ];
 
 function sortEntries(a, b) {

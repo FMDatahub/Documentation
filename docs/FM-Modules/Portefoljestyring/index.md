@@ -1,5 +1,0 @@
-# Portføljestyring
-
-### Beskrivelse
-
-> ?

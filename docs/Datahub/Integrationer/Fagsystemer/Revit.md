@@ -1,42 +1,13 @@
-# Revit 2022
+# Revit
 
-## Beskrivelse
+### Beskrivelse
 
-Revit er en bygningsinformationsmodellerings (BIM) software, der udvikles af Autodesk. Det er et kraftfuldt værktøj, der bruges af arkitekter, ingeniører og byggefagfolk til at designe, analysere og visualisere bygningsprojekter i 3D. Revit hjælper med at skabe detaljerede og præcise modeller af bygninger, der indeholder data om bygningens komponenter og deres forhold til hinanden. Denne information kan bruges til at træffe informerede beslutninger om design, konstruktion, drift og vedligeholdelse af bygninger.
+Revit er en 3D-softwareplatform, der anvendes inden for arkitektur, ingeniørarbejde og byggebranchen. Den er udviklet af Autodesk og giver brugerne mulighed for at designe og visualisere bygningsmodeller og konstruktioner i 3D. Revit inkluderer funktioner, der hjælper med at oprette bygningskomponenter, planlægge og styre projektprocessen, og samarbejde med andre involverede i et byggeprojekt. Revit er designet til at øge effektiviteten og præcisionen i byggeprojekter ved at integrere flere processer og faser i et samlet program.
 
-## Data
-
-- Input
-- Output
-
-## Processer
-
-Beskriv processer uddybende, og lav efterfølgende koden.
-
-- Opsætning af projekt
-- Opdeling af bygninger
-- Geolokations tjekker
-- Eksport IFC
-
-## Automatisering
-
-Liste af modeller
-
-Hent fra kø, udfør Revit automatisering
-
-## Nødvendigheder
-
-Ifc plugin
-RevitBatchProcessor
-
-## Server
-
-Opsætning af server med Revit licens
-
-## Link
-
-https://timesafe.dk/
-
-## Status
+### Integration
 
 Ikke integreret
+
+### Link
+
+https://www.autodesk.com/products/revit/overview

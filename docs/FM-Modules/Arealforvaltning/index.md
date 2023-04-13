@@ -1,9 +1,0 @@
-# Arealforvaltning
-
-### Beskrivelse
-
-> ?
-
-### Processer
-
-> Ingen
