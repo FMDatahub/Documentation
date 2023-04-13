@@ -130,6 +130,14 @@ export default {
         "https://github.com/FMDatahub/Documentation/tree/main/docs/:path",
       text: "Rediger denne side på GitHub",
     },
+    nav: [
+      {
+        text: "Dataordbog",
+        link: "https://fmdatahub.github.io/Datadictionary/",
+        target: "_self",
+        rel: false,
+      },
+    ],
     sidebar: generateSidebar(),
   },
 };
