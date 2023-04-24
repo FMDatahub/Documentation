@@ -1,3 +1,3 @@
 # Events
 
-Selvstændigt eventgrid der kan abbonere på Datahub events
+Selvstændigt eventgrid der kan abonnere på Datahub events
