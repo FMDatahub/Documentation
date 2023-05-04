@@ -15,6 +15,7 @@ const sortOrder = [
   "BusinessNeeds",
   "Datahub",
   "Glaspladen",
+  "Dataordbog",
   "Guides",
 ];
 

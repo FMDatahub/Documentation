@@ -1,4 +1,4 @@
-# Dataordbog
+# Datamodel
 
 ## Beskrivelse
 
